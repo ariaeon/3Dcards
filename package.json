@@ -1,0 +1,20 @@
+{
+  "name": "3Dcards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novxa/3Dcards.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novxa/3Dcards/issues"
+  },
+  "homepage": "https://github.com/novxa/3Dcards#readme"
+}
