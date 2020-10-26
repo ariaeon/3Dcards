@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/novxa/3Dcards/issues"
   },
-  "homepage": "https://github.com/novxa/3Dcards#readme"
+  "homepage": "https://github.com/novxa/3Dcards#readme",
+  "devDependencies": {
+    "less": "^3.12.2"
+  }
 }
