@@ -13,6 +13,8 @@ body {
 	font-family: 'Poppins', sans-serif;
 	height:100vh;
 	perspective: 1000px;
+	transform-style: preserve-3d;
+
 }
 
 
@@ -36,6 +38,8 @@ body {
 
 .info {
 	padding: 10px 0px;
+	transform-style: preserve-3d;
+
 }
 
 h1 {
@@ -73,8 +77,14 @@ button {
 img {
 	width: 100%;
 	transition: all 0.75s ease-out;
+
 }
 .description {
 	transition: all 0.75s ease-out;
+
+}
+
+.header{
+	transform-style: preserve-3d;
 
 }
