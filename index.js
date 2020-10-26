@@ -19,20 +19,20 @@ container.addEventListener("mousemove", (e) => {
 container.addEventListener("mouseenter", (e) => {
   card.style.transition = "none";
   //Popout
-  // title.style.transform = "translateZ(25px)";
-  // sneaker.style.transform = "translateZ(25px)";
-  // description.style.transform = "translateZ(25px)";
-  // sizes.style.transform = "translateZ(25px)";
-  // purchase.style.transform = "translateZ(25px)";
+  title.style.transform = "translateZ(50px)";
+  sneaker.style.transform = "translateZ(25px)";
+  description.style.transform = "translateZ(50px)";
+  sizes.style.transform = "translateZ(25px)";
+  purchase.style.transform = "translateZ(25px)";
 });
 //Animate Out
 container.addEventListener("mouseleave", (e) => {
   card.style.transition = "all 0.5s ease";
   card.style.transform = `rotateY(0deg) rotateX(0deg)`;
   //Popback
-  // title.style.transform = "translateZ(0px)";
-  // sneaker.style.transform = "translateZ(0px) rotateZ(0deg)";
-  // description.style.transform = "translateZ(0px)";
-  // sizes.style.transform = "translateZ(0px)";
-  // purchase.style.transform = "translateZ(0px)";
+  title.style.transform = "translateZ(0px)";
+  sneaker.style.transform = "translateZ(0px) rotateZ(0deg)";
+  description.style.transform = "translateZ(0px)";
+  sizes.style.transform = "translateZ(0px)";
+  purchase.style.transform = "translateZ(0px)";
 });
