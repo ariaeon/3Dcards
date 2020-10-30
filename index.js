@@ -22,10 +22,18 @@ container.addEventListener('mousemove', (e) => {
 });
 
 body.addEventListener('mousemove', (e) => {
-  console.log(e.pageX, e.pageY);
+  // console.log(e.pageX, e.pageY);
   cursor.style.top = `${e.pageY}px`;
   cursor.style.left = `${e.pageX}px`;
 });
+
+card.addEventListener('mouseover', () => {
+  cursor.classList.add('card-hover');
+});
+card.addEventListener('mouseleave', () => {
+  cursor.classList.remove('card-hover');
+});
+
 
 buttons.forEach(button => {
   button.addEventListener('mouseover', () => {
