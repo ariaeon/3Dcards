@@ -45,24 +45,24 @@ buttons.forEach(button => {
 });
 
 
-// // Animate In
-// container.addEventListener('mouseenter', () => {
-//   card.style.transition = 'none';
-//   // Popout
-//   title.style.transform = 'translateZ(50px)';
-//   sneaker.style.transform = 'translateZ(25px)';
-//   description.style.transform = 'translateZ(40px)';
-//   sizes.style.transform = 'translateZ(35px)';
-//   purchase.style.transform = 'translateZ(25px)';
-// });
+// Animate In
+container.addEventListener('mouseenter', () => {
+  card.style.transition = 'none';
+  // Popout
+  title.style.transform = 'translateZ(50px)';
+  sneaker.style.transform = 'translateZ(25px)';
+  description.style.transform = 'translateZ(40px)';
+  sizes.style.transform = 'translateZ(35px)';
+  purchase.style.transform = 'translateZ(25px)';
+});
 // Animate Out
-// container.addEventListener('mouseleave', () => {
-//   card.style.transition = 'all 0.5s ease';
-//   card.style.transform = 'rotateY(0deg) rotateX(0deg)';
-//   // Popback
-//   title.style.transform = 'translateZ(0px)';
-//   sneaker.style.transform = 'translateZ(0px) rotateZ(0deg)';
-//   description.style.transform = 'translateZ(0px)';
-//   sizes.style.transform = 'translateZ(0px)';
-//   purchase.style.transform = 'translateZ(0px)';
-// });
+container.addEventListener('mouseleave', () => {
+  card.style.transition = 'all 0.5s ease';
+  card.style.transform = 'rotateY(0deg) rotateX(0deg)';
+  // Popback
+  title.style.transform = 'translateZ(0px)';
+  sneaker.style.transform = 'translateZ(0px) rotateZ(0deg)';
+  description.style.transform = 'translateZ(0px)';
+  sizes.style.transform = 'translateZ(0px)';
+  purchase.style.transform = 'translateZ(0px)';
+});
